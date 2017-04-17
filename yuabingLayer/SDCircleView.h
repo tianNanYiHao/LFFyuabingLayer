@@ -31,5 +31,13 @@
 -(instancetype)initWithFrame:(CGRect)frame offset:(CGFloat)offset numberArray:(NSArray*)numberArr colorArray:(NSArray*)colorArr;
 
 
+/**
+ 刷新数据
+ 
+ @param numberArr 数据数组
+ */
+-(void)sdCircleViewSetNumberArrayDate:(NSArray*)numberArr;
+
+
 
 @end
